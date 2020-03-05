@@ -69,7 +69,7 @@ function conn(){
 	var deviceTouchArr = deviceTouch.split(",");
 	ConnDeviceId = deviceTouchArr[1];
 	//document.getElementById("debugDiv").innerHTML += "<br>"+deviceTouchArr[0]+"<br>"+deviceTouchArr[1]; //for debug:
-	ble.autoConnect(D5:23:06:25:5E:18, onConnect, onConnError);
+	ble.autoConnect(ConnDeviceID, onConnect, onConnError);
  }
  
  //succes
